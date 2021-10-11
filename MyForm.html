@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Form</title>
+    </head>
+    <body>
+        <!-- Form -->
+        <p>KWASU APPLICATION FORM</p>
+        <form action="Index2.html" method="post">
+            <label for="surname">Surname</label>
+            <input type="text" name="surname" placeholder="Surname" required> <br>
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstName" placeholder="First Name" required> <br>
+            <label for="otherName">Other Name</label>
+            <input type="text" name="otherName" placeholder="Other Name"> <br>
+            <label for="date">Date of Birth</label>
+            <input type="date" name="dob" id="date008"> <br>
+            <label for="telephoneNumber">Telephone Number</label>
+            <input type="tel" name="numb2" placeholder="+234 803 000 0000" required> <br>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" placeholder="funke@gmail.com" required> <br>
+            <select name="academicProgramme" id="academic001">
+                <option value="---Academic Programme---">---Academic Programme---</option>
+                <option value="Undergraduate(Regular)">Undergraduate(Regular)</option>
+                <option value="Undergraduate(IDEL extended programme)">Undergraduate(IDEL extended programme)</option>
+                <option value="Undergraduate(Professional Degree Programme)">Undergraduate(Professional Degree Programme(PDP))</option>
+                <option value="Business School Professional Masters">Business School Professional Masters(BMA)</option>
+            </select> <br>
+            <textarea name="message" id="reason01" cols="30" rows="10">Why should we admit you?</textarea> <br>
+            <input type="submit" name="submit" value="register">
+        </form>
+    </body>
+</html>
